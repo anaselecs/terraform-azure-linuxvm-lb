@@ -40,13 +40,13 @@ The infrastructure includes:
 04-locals.tf
 05-random.tf
 
-10-resource-group.tf
-11-networking.tf
-12-security.tf
-13-compute.tf
-14-loadbalancer.tf
+06-resource-group.tf
+07-networking.tf
+08-security.tf
+09-compute.tf
+10-loadbalancer.tf
 
-99-outputs.tf
+11-outputs.tf
 
 terraform.tfvars
 README.md
