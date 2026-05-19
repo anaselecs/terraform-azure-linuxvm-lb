@@ -14,8 +14,6 @@ override.tf.json
 *_override.tf
 *_override.tf.json
 
-# Terraform lock file
-.terraform.lock.hcl
 
 # SSH Private Keys
 *.pem
