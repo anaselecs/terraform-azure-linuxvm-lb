@@ -50,3 +50,4 @@ resource "azurerm_network_interface_nat_rule_association" "assocaite_inbound" {
   ip_configuration_name = azurerm_network_interface.web_linuxvm_nic.ip_configuration[0].name
   nat_rule_id           = azurerm_lb_nat_rule.web_lb_inbound_nat_rule_22.id
 }
+#whatever
