@@ -1,0 +1,11 @@
+resource_group_name = "rg"
+resource_group_location = "uksouth"
+environment = "dev"
+project_name = "anas"
+location_short = "uks"
+Vnet_address_space = [ "10.0.0.0/16" ]
+web_subnet_address_prefixes = [ "10.0.10.0/24" ]
+web_subnet_name = "web"
+Vnet_name = "vnet"
+vm_size = "Standard_B2ms"
+admin_username = "adminuser"
