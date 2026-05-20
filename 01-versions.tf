@@ -9,7 +9,9 @@ random = {
       source  = "hashicorp/random"
       version = "~>3.8"
     }
-
+    
+  # Terraform State Storage to Azure Storage Container (Values will be taken from Azure DevOps)
   }
+  backend "azurerm" { }
 
 }
